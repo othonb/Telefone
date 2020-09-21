@@ -1,16 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
+import { AdicionaTelefoneComponent } from './adiciona-telefone/adiciona-telefone.component';
+import { EditaTelefoneComponent } from './edita-telefone/edita-telefone.component';
+import { ListaTelefoneComponent } from './lista-telefone/lista-telefone.component';
+import { routing } from './app.routing';
+import { TelefoneService } from './service/telefone.service';
+import { HttpClient, HttpClientModule, HttpHandler } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent
+    ListaTelefoneComponent,
+    AdicionaTelefoneComponent,
+    EditaTelefoneComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    routing
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [TelefoneService, HttpClient],
+  bootstrap: [ListaTelefoneComponent]
 })
 export class AppModule { }
