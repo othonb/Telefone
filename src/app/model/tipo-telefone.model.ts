@@ -1,9 +1,9 @@
 export class TipoTelefone {
-  public id : number;
-  public nome : string;
+  public phoneNumberTypeID : number;
+  public name : string;
 
-  constructor (id, nome) {
-    this.id = id;
-    this.nome = nome;
+  constructor (phoneNumberTypeID, name) {
+    this.phoneNumberTypeID = phoneNumberTypeID;
+    this.name = name;
   }
 }

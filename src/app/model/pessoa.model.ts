@@ -1,9 +1,9 @@
 export class Pessoa {
-  public id : number;
-  public nome : string;
+  public businessEntityID : number;
+  public name : string;
 
-  constructor (id, nome) {
-    this.id = id;
-    this.nome = nome;
+  constructor (businessEntityID, name) {
+    this.businessEntityID = businessEntityID;
+    this.name = name;
   }
 }

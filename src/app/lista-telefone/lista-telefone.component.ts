@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 import { TelefoneService } from '../service/telefone.service';
 import { Telefone } from '../model/telefone.model';
+import { isNullOrUndefined } from 'util';
 
 @Component({
   selector: 'app-lista-telefone',
@@ -10,28 +11,48 @@ import { Telefone } from '../model/telefone.model';
 })
 export class ListaTelefoneComponent implements OnInit {
 
-  telefones: Telefone[];
+  telefones: Telefone[] = [];
 
   constructor(private router: Router, private telefoneService: TelefoneService) { }
 
   ngOnInit() {
+    this.recuperaTodosTelefones()
+  }
+
+  recuperaTodosTelefones() {
+
     this.telefoneService.getTodosTelefones()
       .subscribe(resposta =>
       {
-        console.log(resposta);
+
+        if (resposta.success &&
+          ! isNullOrUndefined(resposta.data) &&
+          ! isNullOrUndefined(resposta.data.personPhoneObjects)) {
+
+            this.telefones = [];
+
+            this.telefones = resposta.data.personPhoneObjects;
+
+          }
+
       });
+
   }
 
   apagaTelefone(telefone : Telefone): void {
-    this.telefoneService.deleteTelefone(telefone)
+
+    if (confirm ('Remove o registro?')) {
+
+      this.telefoneService.deleteTelefone(telefone)
       .subscribe( resposta => {
+        this.recuperaTodosTelefones();
         console.log(resposta);
       });
+
+    }
   }
 
   editaTelefone(telefone : Telefone): void {
-    // localStorage.removeItem("editUserId");
-    // localStorage.setItem("editUserId", user.id.toString());
     // this.router.navigate(['edit-user']);
   };
 

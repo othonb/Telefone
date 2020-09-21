@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {Telefone} from "../model/telefone.model";
+import {Telefone} from '../model/telefone.model';
+import { Response } from '../model/response.model';
 
 @Injectable()
 export class TelefoneService {
@@ -10,22 +11,22 @@ export class TelefoneService {
   constructor(private http: HttpClient) { }
 
   getTodosTelefones() {
-    return this.http.get<Telefone[]>(this.baseUrl);
+    return this.http.get<Response>(this.baseUrl);
   }
 
   getTelefonePorPessoa(telefone: Telefone) {
-    return this.http.get<string>(this.baseUrl + '/' + telefone.idPessoa + '/' + telefone.numTelefone + '/' + telefone.idTipoTelefone);
+    return this.http.get<string>(this.baseUrl + '/' + telefone.businessEntityID + '/' + telefone.phoneNumber + '/' + telefone.phoneNumberTypeID);
   }
 
   createTelefone(telefone: Telefone) {
-    return this.http.put<string>(this.baseUrl + '/' + telefone.idPessoa + '/' + telefone.numTelefone + '/' + telefone.idTipoTelefone, null);
+    return this.http.put<string>(this.baseUrl + '/' + telefone.businessEntityID + '/' + telefone.phoneNumber + '/' + telefone.phoneNumberTypeID, null);
   }
 
   updateTelefone(telefone: Telefone) {
-    return this.http.post<string>(this.baseUrl + '/' + telefone.idPessoa + '/' + telefone.numTelefone + '/' + telefone.idTipoTelefone, null);
+    return this.http.post<string>(this.baseUrl + '/' + telefone.businessEntityID + '/' + telefone.phoneNumber + '/' + telefone.phoneNumberTypeID, null);
   }
 
   deleteTelefone(telefone: Telefone) {
-    return this.http.delete<string>(this.baseUrl + '/' + telefone.idPessoa + '/' + telefone.numTelefone + '/' + telefone.idTipoTelefone, null);
+    return this.http.delete(this.baseUrl + '/' + telefone.businessEntityID + '/' + telefone.phoneNumber + '/' + telefone.phoneNumberTypeID, {responseType: 'text'});
   }
 }

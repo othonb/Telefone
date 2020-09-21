@@ -2,18 +2,18 @@ import { Pessoa } from './pessoa.model';
 import { TipoTelefone } from './tipo-telefone.model';
 
 export class Telefone {
-  public idPessoa : number;
-  public idTipoTelefone : number;
-  public numTelefone : string;
-  public pessoa : Pessoa;
-  public tipoTelefone : TipoTelefone;
+  public businessEntityID : number;
+  public phoneNumberTypeID : number;
+  public phoneNumber : string;
+  public person : Pessoa;
+  public phoneNumberType : TipoTelefone;
 
-  constructor (idPessoa, idTipoTelefone, numTelefone, pessoa, tipoTelefone) {
+  constructor (businessEntityID, phoneNumberTypeID, phoneNumber, person, phoneNumberType) {
 
-    this.idPessoa = idPessoa;
-    this.idTipoTelefone = idTipoTelefone;
-    this.numTelefone = numTelefone;
-    this.pessoa = pessoa;
-    this.tipoTelefone = tipoTelefone;
+    this.businessEntityID = businessEntityID;
+    this.phoneNumberTypeID = phoneNumberTypeID;
+    this.phoneNumber = phoneNumber;
+    this.person = person;
+    this.phoneNumberType = phoneNumberType;
   }
 }
