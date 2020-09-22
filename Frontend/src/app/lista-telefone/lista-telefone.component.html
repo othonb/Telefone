@@ -1,0 +1,26 @@
+
+<div class="col-md-6">
+  <h2>Lista de Telefones</h2>
+  <button class="btn btn-success" (click)="adicionaTelefone()">Adiciona Telefone</button>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th class="hidden">Id</th>
+      <th>Nome da Pessoa</th>
+      <th>Tipo do Telefone</th>
+      <th>Telefone</th>
+      <th>Ação</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let telefone of telefones">
+      <td class="hidden"></td>
+      <td>{{telefone.person.name}}</td>
+      <td>{{telefone.phoneNumberType.name}}</td>
+      <td>{{telefone.phoneNumber}}</td>
+      <td><button class="btn btn-danger" (click)="apagaTelefone(telefone)">Apaga</button>
+        <button class="btn btn-warning" (click)="editaTelefone(telefone)" style="margin-left: 20px;">Edita</button></td>
+    </tr>
+    </tbody>
+  </table>
+</div>

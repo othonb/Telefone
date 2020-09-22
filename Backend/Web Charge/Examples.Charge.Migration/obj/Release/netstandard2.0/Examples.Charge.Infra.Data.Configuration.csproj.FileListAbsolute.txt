@@ -1,0 +1,14 @@
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/bin/Release/netstandard2.0/Examples.Charge.Infra.Data.Configuration.deps.json
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/bin/Release/netstandard2.0/Examples.Charge.Infra.Data.Configuration.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/bin/Release/netstandard2.0/Examples.Charge.Infra.Data.Configuration.pdb
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/bin/Release/netstandard2.0/Examples.Charge.Domain.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/bin/Release/netstandard2.0/Examples.Charge.Infra.Data.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/bin/Release/netstandard2.0/Examples.Charge.Domain.pdb
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/bin/Release/netstandard2.0/Examples.Charge.Infra.Data.pdb
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/obj/Release/netstandard2.0/Examples.Charge.Infra.Data.Configuration.csprojAssemblyReference.cache
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/obj/Release/netstandard2.0/Examples.Charge.Infra.Data.Configuration.AssemblyInfoInputs.cache
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/obj/Release/netstandard2.0/Examples.Charge.Infra.Data.Configuration.AssemblyInfo.cs
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/obj/Release/netstandard2.0/Examples.Charge.Infra.Data.Configuration.csproj.CoreCompileInputs.cache
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/obj/Release/netstandard2.0/Examples.Charge.Infra.Data.Configuration.csproj.CopyComplete
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/obj/Release/netstandard2.0/Examples.Charge.Infra.Data.Configuration.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Migration/obj/Release/netstandard2.0/Examples.Charge.Infra.Data.Configuration.pdb

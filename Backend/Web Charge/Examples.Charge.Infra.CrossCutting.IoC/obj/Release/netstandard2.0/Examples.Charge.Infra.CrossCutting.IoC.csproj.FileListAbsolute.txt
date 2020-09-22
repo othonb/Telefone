@@ -1,0 +1,16 @@
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/bin/Release/netstandard2.0/Examples.Charge.Infra.CrossCutting.IoC.deps.json
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/bin/Release/netstandard2.0/Examples.Charge.Infra.CrossCutting.IoC.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/bin/Release/netstandard2.0/Examples.Charge.Infra.CrossCutting.IoC.pdb
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/bin/Release/netstandard2.0/Examples.Charge.Application.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/bin/Release/netstandard2.0/Examples.Charge.Domain.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/bin/Release/netstandard2.0/Examples.Charge.Infra.Data.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/bin/Release/netstandard2.0/Examples.Charge.Application.pdb
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/bin/Release/netstandard2.0/Examples.Charge.Infra.Data.pdb
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/bin/Release/netstandard2.0/Examples.Charge.Domain.pdb
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/obj/Release/netstandard2.0/Examples.Charge.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/obj/Release/netstandard2.0/Examples.Charge.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/obj/Release/netstandard2.0/Examples.Charge.Infra.CrossCutting.IoC.AssemblyInfo.cs
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/obj/Release/netstandard2.0/Examples.Charge.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/obj/Release/netstandard2.0/Examples.Charge.Infra.CrossCutting.IoC.csproj.CopyComplete
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/obj/Release/netstandard2.0/Examples.Charge.Infra.CrossCutting.IoC.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/obj/Release/netstandard2.0/Examples.Charge.Infra.CrossCutting.IoC.pdb

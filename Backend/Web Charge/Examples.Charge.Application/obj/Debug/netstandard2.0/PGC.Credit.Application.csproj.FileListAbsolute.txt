@@ -1,0 +1,9 @@
+C:\Users\aljunior2\source\repos\Raizen\pgc\PGC\Web Credit\PGC.Credit.Application\bin\Debug\netstandard2.0\PGC.Credit.Application.deps.json
+C:\Users\aljunior2\source\repos\Raizen\pgc\PGC\Web Credit\PGC.Credit.Application\bin\Debug\netstandard2.0\PGC.Credit.Application.dll
+C:\Users\aljunior2\source\repos\Raizen\pgc\PGC\Web Credit\PGC.Credit.Application\bin\Debug\netstandard2.0\PGC.Credit.Application.pdb
+C:\Users\aljunior2\source\repos\Raizen\pgc\PGC\Web Credit\PGC.Credit.Application\obj\Debug\netstandard2.0\PGC.Credit.Application.csprojAssemblyReference.cache
+C:\Users\aljunior2\source\repos\Raizen\pgc\PGC\Web Credit\PGC.Credit.Application\obj\Debug\netstandard2.0\PGC.Credit.Application.csproj.CoreCompileInputs.cache
+C:\Users\aljunior2\source\repos\Raizen\pgc\PGC\Web Credit\PGC.Credit.Application\obj\Debug\netstandard2.0\PGC.Credit.Application.AssemblyInfoInputs.cache
+C:\Users\aljunior2\source\repos\Raizen\pgc\PGC\Web Credit\PGC.Credit.Application\obj\Debug\netstandard2.0\PGC.Credit.Application.AssemblyInfo.cs
+C:\Users\aljunior2\source\repos\Raizen\pgc\PGC\Web Credit\PGC.Credit.Application\obj\Debug\netstandard2.0\PGC.Credit.Application.dll
+C:\Users\aljunior2\source\repos\Raizen\pgc\PGC\Web Credit\PGC.Credit.Application\obj\Debug\netstandard2.0\PGC.Credit.Application.pdb

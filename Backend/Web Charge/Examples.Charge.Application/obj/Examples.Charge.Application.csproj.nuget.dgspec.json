@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj",
+        "projectName": "Examples.Charge.Application",
+        "projectPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj",
+        "packagesPath": "/Users/othon/.nuget/packages/",
+        "outputPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/othon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Domain/Examples.Charge.Domain.csproj": {
+                "projectPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Domain/Examples.Charge.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Domain/Examples.Charge.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Domain/Examples.Charge.Domain.csproj",
+        "projectName": "Examples.Charge.Domain",
+        "projectPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Domain/Examples.Charge.Domain.csproj",
+        "packagesPath": "/Users/othon/.nuget/packages/",
+        "outputPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/othon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

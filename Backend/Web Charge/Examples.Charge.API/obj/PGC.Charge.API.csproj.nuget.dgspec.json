@@ -1,0 +1,432 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.API\\PGC.Charge.API.csproj": {}
+  },
+  "projects": {
+    "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.API\\PGC.Charge.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.API\\PGC.Charge.API.csproj",
+        "projectName": "PGC.Charge.API",
+        "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.API\\PGC.Charge.API.csproj",
+        "packagesPath": "C:\\Users\\wsalmi\\.nuget\\packages\\",
+        "outputPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wsalmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Application\\PGC.Charge.Application.csproj": {
+                "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Application\\PGC.Charge.Application.csproj"
+              },
+              "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.CrossCutting.IoC\\PGC.Charge.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.CrossCutting.IoC\\PGC.Charge.Infra.CrossCutting.IoC.csproj"
+              },
+              "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.Data\\PGC.Charge.Infra.Data.csproj": {
+                "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.Data\\PGC.Charge.Infra.Data.csproj"
+              },
+              "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Migration\\PGC.Charge.Infra.Data.Configuration.csproj": {
+                "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Migration\\PGC.Charge.Infra.Data.Configuration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Application\\PGC.Charge.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Application\\PGC.Charge.Application.csproj",
+        "projectName": "PGC.Charge.Application",
+        "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Application\\PGC.Charge.Application.csproj",
+        "packagesPath": "C:\\Users\\wsalmi\\.nuget\\packages\\",
+        "outputPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wsalmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Domain\\PGC.Charge.Domain.csproj": {
+                "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Domain\\PGC.Charge.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Domain\\PGC.Charge.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Domain\\PGC.Charge.Domain.csproj",
+        "projectName": "PGC.Charge.Domain",
+        "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Domain\\PGC.Charge.Domain.csproj",
+        "packagesPath": "C:\\Users\\wsalmi\\.nuget\\packages\\",
+        "outputPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wsalmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.CrossCutting.IoC\\PGC.Charge.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.CrossCutting.IoC\\PGC.Charge.Infra.CrossCutting.IoC.csproj",
+        "projectName": "PGC.Charge.Infra.CrossCutting.IoC",
+        "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.CrossCutting.IoC\\PGC.Charge.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\wsalmi\\.nuget\\packages\\",
+        "outputPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wsalmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Application\\PGC.Charge.Application.csproj": {
+                "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Application\\PGC.Charge.Application.csproj"
+              },
+              "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.Data\\PGC.Charge.Infra.Data.csproj": {
+                "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.Data\\PGC.Charge.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.Data\\PGC.Charge.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.Data\\PGC.Charge.Infra.Data.csproj",
+        "projectName": "PGC.Charge.Infra.Data",
+        "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.Data\\PGC.Charge.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\wsalmi\\.nuget\\packages\\",
+        "outputPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wsalmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Domain\\PGC.Charge.Domain.csproj": {
+                "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Domain\\PGC.Charge.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Migration\\PGC.Charge.Infra.Data.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Migration\\PGC.Charge.Infra.Data.Configuration.csproj",
+        "projectName": "PGC.Charge.Infra.Data.Configuration",
+        "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Migration\\PGC.Charge.Infra.Data.Configuration.csproj",
+        "packagesPath": "C:\\Users\\wsalmi\\.nuget\\packages\\",
+        "outputPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Migration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wsalmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Domain\\PGC.Charge.Domain.csproj": {
+                "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Domain\\PGC.Charge.Domain.csproj"
+              },
+              "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.Data\\PGC.Charge.Infra.Data.csproj": {
+                "projectPath": "D:\\wsalmi\\source\\repos\\Raizen\\PGC\\Web Charge\\PGC.Charge.Infra.Data\\PGC.Charge.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

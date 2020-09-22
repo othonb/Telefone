@@ -1,0 +1,109 @@
+
+<div class="col-md-6">
+
+  <h2>Edita Telefone de Pessoa</h2>
+
+  <p *ngIf="telefone == undefined || telefone == null">
+    Essa página deve ser chamada a partir da página de listagem de telefones!!!
+  </p>
+
+  <form
+    *ngIf="telefone != undefined && telefone != null"
+    id="formEdita"
+    name="formEdita">
+
+    <div class="form-group row">
+
+      <div class="col-md-3">
+
+        <label for="pessoaSelect">Pessoa:</label>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <select class="selectpicker form-control" id="pessoaSelect" name="pessoaSelect">
+
+          <option *ngFor="let pessoa of pessoas"
+            [value]="pessoa.businessEntityID"
+            [attr.selected]="telefone.person.name == pessoa.name ? true : null">
+
+
+            {{ pessoa.name }}
+
+          </option>
+
+        </select>
+
+      </div>
+
+    </div>
+
+    <div class="form-group row">
+
+      <div class="col-md-3">
+
+        <label for="phoneNumberInput">Telefone:</label>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <input type="text" class="form-control" id="phoneNumberInput" name="phoneNumberInput" value="{{ telefone.phoneNumber }}" />
+
+      </div>
+
+    </div>
+
+    <div class="form-group row">
+
+      <div class="col-md-3">
+
+        <label for="tipoTelefoneSelect">Tipo de Telefone:</label>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <select class="selectpicker form-control" id="tipoTelefoneSelect" name="tipoTelefoneSelect">
+
+          <option *ngFor="let tipoTelefone of tiposTelefones"
+            [value]="telefone.phoneNumberTypeID"
+            [attr.selected]="telefone.phoneNumberType.name == tipoTelefone.name ? true : null">
+
+
+            {{ tipoTelefone.name }}
+
+          </option>
+
+        </select>
+
+      </div>
+
+    </div>
+
+
+
+  </form>
+
+  <div *ngIf="telefone != undefined && telefone != null">
+
+    <div class="row">
+
+      <div class="col-sm-4 text-center">
+
+        <button class="btn btn-success btn-md center-block" (click)="salvaAlteracoes()">Salva Alterações</button>
+
+      </div>
+
+      <div class="col-sm-4 text-center">
+
+        <button class="btn btn-warning btn-md center-block" onclick="javascript:window.location='';">Volta</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

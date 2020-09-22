@@ -1,0 +1,12 @@
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/bin/Release/netstandard2.0/Examples.Charge.Application.deps.json
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/bin/Release/netstandard2.0/Examples.Charge.Application.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/bin/Release/netstandard2.0/Examples.Charge.Application.pdb
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/bin/Release/netstandard2.0/Examples.Charge.Domain.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/bin/Release/netstandard2.0/Examples.Charge.Domain.pdb
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/obj/Release/netstandard2.0/Examples.Charge.Application.csprojAssemblyReference.cache
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/obj/Release/netstandard2.0/Examples.Charge.Application.AssemblyInfoInputs.cache
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/obj/Release/netstandard2.0/Examples.Charge.Application.AssemblyInfo.cs
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/obj/Release/netstandard2.0/Examples.Charge.Application.csproj.CoreCompileInputs.cache
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/obj/Release/netstandard2.0/Examples.Charge.Application.csproj.CopyComplete
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/obj/Release/netstandard2.0/Examples.Charge.Application.dll
+/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/obj/Release/netstandard2.0/Examples.Charge.Application.pdb
