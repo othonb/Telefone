@@ -25,17 +25,6 @@ namespace Examples.Charge.API
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors(options =>
-            {
-                options.AddPolicy(name: "disableCors",
-                                builder =>
-                                {
-                                    builder.AllowAnyOrigin()
-                                    .AllowAnyMethod()
-                                    .AllowAnyHeader();
-                                });
-            });
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<ExampleContext>(options =>
             {
@@ -72,6 +61,17 @@ namespace Examples.Charge.API
                 {
                     options.IncludeXmlComments(xmlWebApiFile);
                 }
+            });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "disableCors",
+                                configurePolicy: builder =>
+                                {
+                                    builder.AllowAnyOrigin()
+                                    .AllowAnyMethod()
+                                    .AllowAnyHeader();
+                                });
             });
         }
 

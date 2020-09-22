@@ -46,9 +46,9 @@ export class AdicionaTelefoneComponent implements OnInit {
     if (confirm('Salva as alterações?')) {
 
       const telefoneNovo = new Telefone(
-        document.getElementById('pessoaSelect').value,
-        document.getElementById('tipoTelefoneSelect').value,
-        document.getElementById('phoneNumberInput').value,
+        (<HTMLSelectElement>document.getElementById('pessoaSelect')).value,
+        (<HTMLSelectElement>document.getElementById('tipoTelefoneSelect')).value,
+        (<HTMLInputElement>document.getElementById('phoneNumberInput')).value,
         null,
         null
       );

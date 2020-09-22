@@ -22,3 +22,15 @@ D:/wsalmi/source/repos/Raizen/PGC/Web Charge/Examples.Charge.Infra.Data/obj/Debu
 /Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.Data/obj/Debug/netstandard2.0/Examples.Charge.Infra.Data.csproj.CopyComplete
 /Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.Data/obj/Debug/netstandard2.0/Examples.Charge.Infra.Data.dll
 /Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.Data/obj/Debug/netstandard2.0/Examples.Charge.Infra.Data.pdb
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/bin/Debug/netstandard2.0/Examples.Charge.Infra.Data.deps.json
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/bin/Debug/netstandard2.0/Examples.Charge.Infra.Data.dll
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/bin/Debug/netstandard2.0/Examples.Charge.Infra.Data.pdb
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/bin/Debug/netstandard2.0/Examples.Charge.Domain.dll
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/bin/Debug/netstandard2.0/Examples.Charge.Domain.pdb
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/obj/Debug/netstandard2.0/Examples.Charge.Infra.Data.csprojAssemblyReference.cache
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/obj/Debug/netstandard2.0/Examples.Charge.Infra.Data.csproj.CoreCompileInputs.cache
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/obj/Debug/netstandard2.0/Examples.Charge.Infra.Data.AssemblyInfoInputs.cache
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/obj/Debug/netstandard2.0/Examples.Charge.Infra.Data.AssemblyInfo.cs
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/obj/Debug/netstandard2.0/Examples.Charge.Infra.Data.csproj.CopyComplete
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/obj/Debug/netstandard2.0/Examples.Charge.Infra.Data.dll
+/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/obj/Debug/netstandard2.0/Examples.Charge.Infra.Data.pdb

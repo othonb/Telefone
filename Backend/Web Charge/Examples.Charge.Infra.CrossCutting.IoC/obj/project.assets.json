@@ -5428,23 +5428,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/othon/.nuget/packages/": {},
+    "/Users/admin/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/Examples.Charge.Infra.CrossCutting.IoC.csproj",
+      "projectUniqueName": "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/Examples.Charge.Infra.CrossCutting.IoC.csproj",
       "projectName": "Examples.Charge.Infra.CrossCutting.IoC",
-      "projectPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/Examples.Charge.Infra.CrossCutting.IoC.csproj",
-      "packagesPath": "/Users/othon/.nuget/packages/",
-      "outputPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/obj/",
+      "projectPath": "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/Examples.Charge.Infra.CrossCutting.IoC.csproj",
+      "packagesPath": "/Users/admin/.nuget/packages/",
+      "outputPath": "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.CrossCutting.IoC/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/othon/.nuget/NuGet/NuGet.Config"
+        "/Users/admin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -5455,11 +5455,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj": {
-              "projectPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj"
+            "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj": {
+              "projectPath": "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj"
             },
-            "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.Data/Examples.Charge.Infra.Data.csproj": {
-              "projectPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Infra.Data/Examples.Charge.Infra.Data.csproj"
+            "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/Examples.Charge.Infra.Data.csproj": {
+              "projectPath": "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Infra.Data/Examples.Charge.Infra.Data.csproj"
             }
           }
         }
@@ -5489,16 +5489,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

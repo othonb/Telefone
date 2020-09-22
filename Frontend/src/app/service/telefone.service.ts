@@ -19,14 +19,14 @@ export class TelefoneService {
   }
 
   getTelefonePorPessoa(telefone: Telefone) {
-    return this.http.get<string>(
+    return this.http.get(
       this.baseUrl + '/' + telefone.businessEntityID + '/' + telefone.phoneNumber + '/' + telefone.phoneNumberTypeID,
       {responseType: 'text'}
     );
   }
 
   createTelefone(telefone: Telefone) {
-    return this.http.put<string>(
+    return this.http.put(
       this.baseUrl + '/' + telefone.businessEntityID + '/' + telefone.phoneNumber + '/' + telefone.phoneNumberTypeID, null,
       {responseType: 'text'}
     );
@@ -42,7 +42,7 @@ export class TelefoneService {
       PhoneNumberType: null
     };
 
-    return this.http.post<string>(
+    return this.http.post(
       this.baseUrl + '/' + telefoneAntigo.businessEntityID + '/' + telefoneAntigo.phoneNumber + '/' + telefoneAntigo.phoneNumberTypeID,
       postParametros,
       {responseType: 'text'}

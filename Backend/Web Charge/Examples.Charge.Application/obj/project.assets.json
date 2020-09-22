@@ -5030,23 +5030,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/othon/.nuget/packages/": {},
+    "/Users/admin/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj",
+      "projectUniqueName": "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj",
       "projectName": "Examples.Charge.Application",
-      "projectPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj",
-      "packagesPath": "/Users/othon/.nuget/packages/",
-      "outputPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Application/obj/",
+      "projectPath": "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Application/Examples.Charge.Application.csproj",
+      "packagesPath": "/Users/admin/.nuget/packages/",
+      "outputPath": "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Application/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/othon/.nuget/NuGet/NuGet.Config"
+        "/Users/admin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -5057,8 +5057,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Domain/Examples.Charge.Domain.csproj": {
-              "projectPath": "/Users/othon/Downloads/projeto_v1/Web Charge/Examples.Charge.Domain/Examples.Charge.Domain.csproj"
+            "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Domain/Examples.Charge.Domain.csproj": {
+              "projectPath": "/Users/admin/Sites/telefone/Backend/Web Charge/Examples.Charge.Domain/Examples.Charge.Domain.csproj"
             }
           }
         }
@@ -5084,16 +5084,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
